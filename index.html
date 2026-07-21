@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AIDEN · Russel Howcroft joins as Chairman</title>
+<title>AIDEN vs Springboards · Intelligence · Tom + Russ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     --line:#1c1c1c;
     --red:#c8202e;
     --red-glow:rgba(200,32,46,0.35);
+    --amber:#e0a000;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
@@ -25,7 +26,7 @@
   header.nav{position:fixed;top:0;left:0;right:0;padding:1.2rem 2rem;display:flex;justify-content:space-between;align-items:center;background:rgba(10,10,10,0.85);backdrop-filter:blur(10px);z-index:10;border-bottom:1px solid var(--line)}
   header.nav img{height:22px}
   header.nav .tag{font-size:.72rem;letter-spacing:.2em;color:var(--mute);text-transform:uppercase}
-  h1{font-weight:900;font-size:clamp(2.4rem,6vw,5.8rem);line-height:.98;letter-spacing:-.03em;margin-bottom:1.5rem}
+  h1{font-weight:900;font-size:clamp(2.4rem,6vw,5.5rem);line-height:.98;letter-spacing:-.03em;margin-bottom:1.5rem}
   h1 .red{color:var(--red)}
   h2{font-weight:800;font-size:clamp(1.8rem,3.6vw,3.2rem);line-height:1.05;letter-spacing:-.02em;margin-bottom:2rem}
   h2 .red{color:var(--red)}
@@ -41,6 +42,8 @@
   .card p{font-size:1rem}
   .card.red{border-color:var(--red);background:linear-gradient(180deg,rgba(200,32,46,.08),transparent)}
   .card.red h4{color:var(--red)}
+  .card.amber{border-color:var(--amber);background:linear-gradient(180deg,rgba(224,160,0,.06),transparent)}
+  .card.amber h4{color:var(--amber)}
   ul.clean{list-style:none;padding:0}
   ul.clean li{padding:.7rem 0;border-bottom:1px solid var(--line);display:flex;gap:1rem}
   ul.clean li::before{content:"▸";color:var(--red);flex-shrink:0}
@@ -54,12 +57,14 @@
   .footer{padding:3rem 8vw;font-size:.8rem;color:var(--mute);letter-spacing:.12em;text-transform:uppercase}
   .pill{display:inline-block;padding:.3rem .8rem;border:1px solid var(--red);color:var(--red);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;border-radius:20px;margin-bottom:1.5rem}
   .source{font-size:.75rem;color:var(--mute);margin-top:1.2rem;font-style:italic}
-  .person{padding:1.5rem 0;border-bottom:1px solid var(--line)}
-  .person .name{font-weight:800;font-size:1.4rem;letter-spacing:-.01em}
-  .person .title{font-size:.75rem;letter-spacing:.2em;color:var(--red);text-transform:uppercase;margin-top:.3rem;margin-bottom:.7rem}
-  .quote{font-size:1.3rem;font-weight:600;line-height:1.4;color:var(--ink);border-left:3px solid var(--red);padding-left:1.5rem;margin:1.5rem 0;max-width:60ch}
-  .hero-name{font-weight:900;font-size:clamp(3rem,8vw,7rem);line-height:.9;letter-spacing:-.04em;color:var(--red)}
-  .hero-title{font-size:clamp(1rem,1.4vw,1.4rem);letter-spacing:.35em;text-transform:uppercase;color:var(--mute);margin-top:1.2rem;font-weight:600}
+  .quote{font-size:1.25rem;font-weight:600;line-height:1.4;color:var(--ink);border-left:3px solid var(--red);padding-left:1.5rem;margin:1.5rem 0;max-width:65ch}
+  .qbox{background:#0f0f0f;border:1px dashed var(--red);border-radius:6px;padding:1.5rem;margin-top:1.2rem}
+  .qbox h5{font-size:.72rem;letter-spacing:.2em;color:var(--red);text-transform:uppercase;margin-bottom:.6rem}
+  .qbox p{font-size:1rem}
+  .status-row{display:flex;gap:1rem;flex-wrap:wrap;margin-top:.6rem}
+  .status{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;padding:.3rem .7rem;border-radius:20px;border:1px solid var(--line);color:var(--mute)}
+  .status.strong{color:var(--red);border-color:var(--red)}
+  .status.weak{color:var(--amber);border-color:var(--amber)}
   @media (max-width:800px){
     .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
     section{padding:12vh 6vw}
@@ -72,305 +77,307 @@
 <div class="glow"></div>
 <header class="nav">
   <img src="https://res.cloudinary.com/dkl8kiemy/image/upload/redbaez_logo_rxrjfp.png" alt="Redbaez">
-  <span class="tag">AIDEN · Chairman Announcement · Investor Brief · Jul 2026</span>
+  <span class="tag">Intelligence · Tom + Russ · Jul 2026</span>
 </header>
 <main>
 
 <!-- 1. Cover -->
 <section>
-  <span class="slide-num">01 / 13</span>
-  <span class="pill">Announcement · Prepared for Tenet</span>
-  <h1>Russel Howcroft<br>joins AIDEN<br><span class="red">as Chairman.</span></h1>
-  <p class="lede">Australia's most recognisable advertising voice, backing the platform that puts creative agencies ahead of the AI curve. This is what changes the investment conversation.</p>
+  <span class="slide-num">01 / 11</span>
+  <span class="pill">Internal · Tom + Russ · Not for circulation</span>
+  <h1>AIDEN vs<br><span class="red">Springboards.</span><br>What we actually know.</h1>
+  <p class="lede">This is intelligence, not a pitch. Honest read of the competitor, honest read of our position, honest read of what Russ actually changes. Use it to make decisions in the next 60 days.</p>
 </section>
 
-<!-- 2. Hero on Russ -->
+<!-- 2. Snapshot -->
 <section>
-  <span class="slide-num">02 / 13</span>
-  <span class="hero-title">Chairman</span>
-  <div class="hero-name">Russel Howcroft.</div>
-  <br>
-  <p class="lede" style="font-size:1.3rem;max-width:65ch">Partner at <strong>Tenet</strong>. Australia's first <strong>PwC Chief Creative Officer</strong>. Ex <strong>Network Ten EGM</strong>. Ex <strong>Y&R Brands CEO</strong>. Long-running <strong>Gruen</strong> panellist. Host of <strong>The AdMission Podcast</strong>. Author. Co-founder of Sayers Group (now Tenet), 2020.</p>
-  <br>
+  <span class="slide-num">02 / 11</span>
+  <h3>The snapshot</h3>
+  <h2>What Springboards is <span class="red">right now.</span></h2>
   <div class="grid-4">
-    <div>
-      <div class="big">300k</div>
-      <div class="big-label">Weekly podcast listeners</div>
-    </div>
-    <div>
-      <div class="big">25k+</div>
-      <div class="big-label">LinkedIn following</div>
-    </div>
-    <div>
-      <div class="big">Gruen</div>
-      <div class="big-label">ABC prime-time panellist</div>
-    </div>
-    <div>
-      <div class="big">Tenet</div>
-      <div class="big-label">Partner + VC network</div>
-    </div>
-  </div>
-</section>
-
-<!-- 3. In his own words -->
-<section>
-  <span class="slide-num">03 / 13</span>
-  <h3>In his own words</h3>
-  <h2>Why he's stepping in.</h2>
-  <div class="quote" style="font-size:1.6rem;max-width:70ch;line-height:1.45">
-    "Enero as an ASX listed business. Imagine if we land the deal. In the investment deck we can say we have a significant client engagement plus ASX-listed company support that has got us past bootstrap, past initial market offering, to a genuine business with solid business forecasts, tech support and brand exposure. Let's see if we can make Enero happen."
-  </div>
-  <p style="color:var(--mute);font-size:.9rem;letter-spacing:.1em">— Russ Howcroft, on the AIDEN opportunity, July 2026</p>
-  <br><br>
-  <p class="lede">Russ is doing something he hasn't done for another startup. He's putting his name, his network, his podcast, and his position at Tenet behind AIDEN as Chairman.</p>
-</section>
-
-<!-- 4. What the Chairman role does -->
-<section>
-  <span class="slide-num">04 / 13</span>
-  <h3>What the Chairman role does for AIDEN</h3>
-  <h2>Governance. Brand. Doors. <span class="red">Capital access.</span></h2>
-  <div class="grid-4">
-    <div class="card">
-      <h4>Governance</h4>
-      <p>Standard chairman + advisory board structure. Cap table clean. Investor-ready governance in place before the round.</p>
-    </div>
-    <div class="card">
-      <h4>Brand</h4>
-      <p>AIDEN gets named sponsorship of AdMission (300k listeners weekly, agreed proposition each episode). LinkedIn amplification. Potential Gruen live demo. PR machine.</p>
-    </div>
-    <div class="card">
-      <h4>Doors</h4>
-      <p>Russ's personal introductions across every major AU marketing decision-maker. Already opened: Enero/BMF, Mutinex, Kerfuffle, Town Square, Bastion, Good One.</p>
-    </div>
-    <div class="card red">
-      <h4>Capital route</h4>
-      <p>Russ is a Tenet shareholder with direct VC lines (Blackbird named). Springboards precedent (A$5m seed) is the briefing document. Round runs through Russ's warm channels, not cold pitches.</p>
-    </div>
-  </div>
-  <br>
-  <p class="lede">Russ has been explicit: he isn't the BD guy. His job is <strong>making the brand famous and holding the governance line</strong>. That's exactly the shape early-stage investors want to see next to a technical founder.</p>
-</section>
-
-<!-- 5. Governance layer -->
-<section>
-  <span class="slide-num">05 / 13</span>
-  <h3>The team Russ is stepping into</h3>
-  <h2>Founder + Chairman + Advisor + Partners.</h2>
-  <div class="grid-2">
-    <div>
-      <div class="person">
-        <div class="title">Chairman</div>
-        <div class="name">Russel Howcroft</div>
-        <p style="margin-top:.8rem">Tenet partner. Ex PwC CCO. Ex Ten EGM. Ex Y&R CEO. Gruen. AdMission (300k weekly). Author. This announcement.</p>
-      </div>
-      <div class="person" style="border-bottom:0">
-        <div class="title">Advisor · Board</div>
-        <div class="name">Matt Farrugia</div>
-        <p style="margin-top:.8rem">Founder / operator at <strong>Mutinex</strong> — AU media analytics tech platform in the marketing-services world. Has been through bootstrap → funded → scaled multiple times. Direct peer to what AIDEN is doing. Active AIDEN advocate.</p>
-        <p style="margin-top:.8rem;color:var(--mute);font-size:.95rem">His own line about AIDEN, unprompted: <em>"agencies will be severely disadvantaged if they don't employ AIDEN. It's the 100 people they can't afford to hire."</em></p>
-        <p style="margin-top:.8rem;color:var(--mute);font-size:.9rem">Likely Chair of the fundraise round (Russ has been explicit: he opens doors and holds the brand; a fundraise-specialist Chair navigates the round itself).</p>
-      </div>
-    </div>
-    <div>
-      <div class="person">
-        <div class="title">Founder / CEO</div>
-        <div class="name">Tom Hyde</div>
-        <p style="margin-top:.8rem">Founder <strong>Redbaez</strong>. Ex <strong>Meta</strong>, ex <strong>DDB</strong>. Building AIDEN end-to-end: Colleague, Phantoms, Brain V2. Currently serving Uncommon, Alt/Shift, Collinson, Monigle, Emotive.</p>
-      </div>
-      <div class="person" style="border-bottom:0">
-        <div class="title">UK / EU Partner</div>
-        <div class="name">Chris Maples</div>
-        <p style="margin-top:.8rem">London-based enterprise BD. Long-form deals via senior VP intros. Talon, Goodstuff, Oliver, GOSH lane. Enterprise transformation motion, not SaaS.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 6. Why now -->
-<section>
-  <span class="slide-num">06 / 13</span>
-  <h3>Why Russ is joining now</h3>
-  <h2>The category just got validated. <span class="red">AIDEN is the depth play.</span></h2>
-  <div class="grid-3">
     <div>
       <div class="big">A$5m</div>
-      <div class="big-label">Blackbird's seed into Springboards, Mar 2025</div>
+      <div class="big-label">Seed · Blackbird · Mar 2025</div>
     </div>
     <div>
       <div class="big">120+</div>
-      <div class="big-label">Agencies signed by the shallow competitor</div>
+      <div class="big-label">Agencies (their public claim)</div>
+    </div>
+    <div>
+      <div class="big">~27</div>
+      <div class="big-label">Team (24 staff + 3 founders)</div>
     </div>
     <div>
       <div class="big">A$60–90m</div>
-      <div class="big-label">Est. Springboards valuation, 18 months later</div>
-    </div>
-  </div>
-  <br><br>
-  <p class="lede">The category is real. A creative-AI SaaS in Sydney raised a serious seed on it. But their product is a shallow wrapper on a frontier LLM — great at getting in, weak at staying in. Nearly every agency Tom serves has tried Springboards and moved on.</p>
-  <p class="lede" style="margin-top:1rem"><strong>Russ's read:</strong> the depth layer — bespoke agency brains trained on that agency's IP — is where the defensible business is. That's AIDEN. That's why he's stepping in now, before the round.</p>
-  <p class="source">Sources: Forbes Australia (4 Mar 2025). Blackbird portfolio. Founder call with Pip Bingemann, 21 Apr 2026.</p>
-</section>
-
-<!-- 7. The Enero anchor -->
-<section>
-  <span class="slide-num">07 / 13</span>
-  <h3>The first move Russ is making as Chairman</h3>
-  <h2>Land Enero. <span class="red">An ASX-listed anchor client.</span></h2>
-  <div class="grid-2">
-    <div>
-      <p><strong>Enero Group</strong> — ASX-listed marketing and technology holding company. Owns BMF, Orchard, Hotwire Global, ROI DNA. 650+ people across 16 cities, 300+ clients.</p>
-      <br>
-      <p><strong>Public numbers:</strong> FY25 net revenue A$138.7m, EBITDA A$14.1m. Continuing-ops staff costs annualising ~A$100m — meaning a 1% productivity gain is worth ~A$1m/yr to the group.</p>
-      <br>
-      <p><strong>Deal shape (firming, joint pitch Mon 27 Jul):</strong> BMF as the live proof, group foundation across Orchard / Hotwire / ROI DNA behind it. Commercial anchor <strong>A$950k year one</strong>. Cash + 2 dedicated Enero engineers. Time-boxed exclusivity on Colleague only.</p>
-    </div>
-    <div class="card red">
-      <h4>Why this changes everything</h4>
-      <p style="font-size:1.1rem;line-height:1.65">
-      With Enero signed, AIDEN's investment story changes:
-      <br><br>
-      <strong>From</strong> founder's product with promising demo.<br>
-      <strong>To</strong> validated commercial platform with an ASX-listed anchor client, tech support, brand exposure, and forecastable revenue.
-      <br><br>
-      Russ's role as Chairman is central here. Ian Ball (ex-Bain, Enero) warmed to Tom immediately. The joint pitch on Mon 27 Jul goes in as founder + Chairman, not as a solo vendor.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- 8. The Russ playbook -->
-<section>
-  <span class="slide-num">08 / 13</span>
-  <h3>The Russ playbook</h3>
-  <h2>Four channels. <span class="red">Compounding.</span></h2>
-  <div class="grid-2">
-    <div class="card">
-      <h4>Podcast · AdMission</h4>
-      <p><strong>300,000 weekly listeners.</strong> AIDEN as named sponsor with an agreed proposition per episode. Category education at scale, aimed at the exact buyer.</p>
-    </div>
-    <div class="card">
-      <h4>TV · Gruen</h4>
-      <p>ABC prime-time panel show. Long-running mainstream Australian advertising conversation. Potential live AIDEN demo slot. National reach, one appearance.</p>
-    </div>
-    <div class="card">
-      <h4>Social · LinkedIn</h4>
-      <p>25k+ direct following of AU/global marketing leadership. AIDEN posts amplified. Russ personally endorses. Founder brand and platform brand rise together.</p>
-    </div>
-    <div class="card">
-      <h4>Network · Tenet + personal</h4>
-      <p>Every major AU marketing decision-maker is one Russ intro away. Doors already opened: Enero/BMF, Mutinex, Kerfuffle, Town Square, Bastion, Good One. Bastion MD coffee Fri 24 Jul.</p>
+      <div class="big-label">Est. valuation today (triangulated)</div>
     </div>
   </div>
   <br>
-  <div class="quote">"The ambition is get Tom to SXSW and Cannes 2027 — hopefully with me."<br>— Russ, June 2026</div>
+  <p class="lede"><strong>ARR — not disclosed.</strong> Reverse-engineered: 120 agencies × 5–15 seats × ~US$50/mo = <strong>US$0.5–1m at seed close, likely US$1.5–3m today</strong>. Pricing: Free / $30 Pro / $45 per-seat Team / Enterprise custom.</p>
+  <br>
+  <p class="lede"><strong>Founders:</strong> Pip Bingemann (CEO, ex-indie agency strategy), Amy Tucker (CMO, ex-Twitter/Shopify/215 McCann/UM), Kieran Browne (CTO, PhD ML, ex-Google).</p>
+  <p class="source">Sources: Forbes AU (4 Mar 2025), Blackbird portfolio, springboards.ai/pricing + about. Springboards call with Pip, 21 Apr 2026.</p>
 </section>
 
-<!-- 9. Springboards vs AIDEN -->
+<!-- 3. The honest read on Springboards -->
 <section>
-  <span class="slide-num">09 / 13</span>
-  <h3>The category, plainly</h3>
-  <h2>Springboards is the tool. <span class="red">AIDEN is the brain.</span></h2>
-  <table>
-    <thead><tr><th>&nbsp;</th><th>Springboards</th><th class="red-col">AIDEN Colleague</th></tr></thead>
-    <tbody>
-      <tr><td>What it is</td><td>Ideation chat + canvas</td><td class="red-col">Bespoke agency brain trained on that agency's IP</td></tr>
-      <tr><td>Moat</td><td>Model tuning — fragile</td><td class="red-col">Phantom architecture + agency IP — deepens over time</td></tr>
-      <tr><td>Stickiness</td><td>Low. Agencies churn out fast.</td><td class="red-col">High. The agency's own thinking is now in the system.</td></tr>
-      <tr><td>ACV</td><td>US$10–30k / agency / yr</td><td class="red-col">A$850k–1.25m / agency group / yr (Enero anchor)</td></tr>
-      <tr><td>Sold to</td><td>Creative team lead</td><td class="red-col">MD / CEO — operating infrastructure decision</td></tr>
-      <tr><td>Analogy</td><td>Jasper for advertising</td><td class="red-col">Harvey for agencies</td></tr>
-    </tbody>
-  </table>
-  <div class="quote">"The holding companies built the machine. AIDEN builds the argument the machine executes."</div>
-</section>
-
-<!-- 10. Before / After -->
-<section>
-  <span class="slide-num">10 / 13</span>
-  <h3>What the Chairman appointment unlocks</h3>
-  <h2>Before Russ. <span class="red">After Russ.</span></h2>
+  <span class="slide-num">03 / 11</span>
+  <h3>What they've got right — and where the cracks are</h3>
+  <h2>Fast distribution. <span class="red">Fragile moat.</span></h2>
   <div class="grid-2">
     <div class="card">
-      <h4>Before</h4>
+      <h4>What they've got right</h4>
       <ul class="clean">
-        <li>Working product. Real users. Solid testimonials.</li>
-        <li>Day-rate revenue funding life. Suffocating build time.</li>
-        <li>Solo founder. Partners. No formal governance.</li>
-        <li>Cold pitch to any investor — a year to close.</li>
-        <li>Valuation story: pre-revenue optionality.</li>
+        <li>Category language: "variation, not answers." Owns the vocabulary.</li>
+        <li>Founder credibility. All three founders read cleanly to a CCO.</li>
+        <li>Distribution engine: Spark Sessions monthly with Hurman / Scaman / Roach / McBride.</li>
+        <li>Real logos: Wieden+Kennedy, M&C Saatchi, BMF, Jellyfish, Cummins.</li>
+        <li>Priced for adoption, not for value. Freemium works — 120 agencies in 24 months.</li>
       </ul>
     </div>
-    <div class="card red">
-      <h4>After (with Russ + Enero)</h4>
+    <div class="card amber">
+      <h4>Where the cracks are (Tom's direct intel)</h4>
       <ul class="clean">
-        <li><strong>ASX-listed anchor client</strong> using Colleague at group scale.</li>
-        <li>Cash + 2 dedicated Enero engineers + 12 months founder runway.</li>
-        <li><strong>Chairman</strong> with 300k weekly reach and Tenet-VC line of sight.</li>
-        <li>Advisor (Matt / Mutinex) who has done this exact motion.</li>
-        <li>Valuation story: <strong>A$70–100m realistic</strong> at 100 agencies × ~A$100k ACV, 7× ARR.</li>
+        <li>Pip, April 2026: <em>"This year has been really hard."</em></li>
+        <li>Nearly every agency Tom serves has tried it. Almost none use it a month later.</li>
+        <li>Product is a wrapper on frontier LLMs. Not unique tech. Kieran is talented but this is not defensible model IP.</li>
+        <li>Weak stickiness. "Good at getting in, not at keeping it sticky."</li>
+        <li>Seat-based pricing punishes exactly the team-collaboration they preach.</li>
+        <li>Enterprise = SSO + CSM checkbox. Not custom. Not integrated into agency ops.</li>
       </ul>
     </div>
   </div>
 </section>
 
-<!-- 11. The path -->
+<!-- 4. Where AIDEN stands -->
 <section>
-  <span class="slide-num">11 / 13</span>
-  <h3>The path with Russ in the chair</h3>
-  <h2>100 agencies. <span class="red">A$10m ARR. A$70–100m enterprise value.</span></h2>
+  <span class="slide-num">04 / 11</span>
+  <h3>Where AIDEN stands (honest)</h3>
+  <h2>Deeper product. <span class="red">Weaker distribution.</span> Until now.</h2>
   <table>
-    <thead><tr><th>Milestone</th><th>Agencies</th><th>ARR (est.)</th><th>Valuation (7× ARR)</th></tr></thead>
+    <thead><tr><th>&nbsp;</th><th>Springboards</th><th class="red-col">AIDEN</th></tr></thead>
     <tbody>
-      <tr><td>Today (Jul 2026)</td><td>~5 active engagements</td><td>Day-rate + build</td><td>Pre-round</td></tr>
-      <tr class="red-col"><td class="red-col"><strong>Enero closed (Aug–Sep 2026)</strong></td><td class="red-col"><strong>ASX-listed group anchor</strong></td><td class="red-col"><strong>~A$1m ARR</strong></td><td class="red-col"><strong>A$15–25m · round trigger</strong></td></tr>
-      <tr><td>End Year 1 post-close</td><td>~20 agencies</td><td>~A$2–3m</td><td>A$20–30m</td></tr>
-      <tr><td>End Year 2</td><td>~50 agencies</td><td>~A$5m</td><td>A$35–50m</td></tr>
-      <tr><td>End Year 3</td><td>~100 agencies</td><td>~A$10m</td><td>A$70–100m</td></tr>
+      <tr><td>Product layer</td><td>Generic ideation chat</td><td class="red-col">Bespoke agency brain (Colleague) + Phantoms</td></tr>
+      <tr><td>Stickiness</td><td>Low — agency can turn off any month</td><td class="red-col">High — the agency's own IP is now in the system</td></tr>
+      <tr><td>ACV</td><td>US$10–30k / agency / yr</td><td class="red-col">A$150k–1.25m / agency (Enero anchor A$950k)</td></tr>
+      <tr><td>Distribution</td><td>Strong — 120 agencies, content engine, marquee names</td><td class="red-col">Weak until now — Tom+Chris only. Russ changes this.</td></tr>
+      <tr><td>Team</td><td>~27 people, funded</td><td class="red-col">1 founder, 2 partners. Suffocating build.</td></tr>
+      <tr><td>Capital</td><td>A$5m Blackbird in the bank</td><td class="red-col">Day-rate funding life. Enero + Russ = alternative path.</td></tr>
+      <tr><td>Moat direction</td><td>Erodes each frontier LLM release</td><td class="red-col">Deepens with each agency's IP added</td></tr>
     </tbody>
   </table>
   <br>
-  <p class="lede">Springboards took a shallow tool to 120 agencies in 24 months with no Chairman, no ASX-listed anchor, and a fragile moat. AIDEN targets 100 agencies in 36 months as a deep platform with Russ, Matt, Chris and Enero already inside the story.</p>
+  <p class="lede"><strong>Punchline:</strong> we've built the better product. They've built the better business, so far. That gap closes if — and only if — Russ moves the distribution needle in the next 6 months.</p>
 </section>
 
-<!-- 12. What we're asking Tenet -->
+<!-- 5. The Russ effect -->
 <section>
-  <span class="slide-num">12 / 13</span>
-  <h3>What we're asking Tenet to consider</h3>
-  <h2>Not the seed round. <span class="red">The Series-A-shaped round.</span></h2>
+  <span class="slide-num">05 / 11</span>
+  <h3>The Russ effect — where it multiplies</h3>
+  <h2>What Russ actually changes.</h2>
   <div class="grid-2">
-    <div>
-      <p><strong>Timing:</strong> once Enero signs (target Aug–Sep 2026), AIDEN has an ASX-listed anchor, a Chairman with market presence, a formal advisory board, and a defensible category position. That's when the round is worth running.</p>
-      <br>
-      <p><strong>Structure sketch:</strong> chairman appointed. Advisory board formed. Cap table clean. Anchor client committed. Product live and revenue-generating. Comparable (Springboards) provides the market multiple. VC route into Blackbird (or peer) opened by Russ via Tenet.</p>
-      <br>
-      <p><strong>Ask of Tenet:</strong> read this brief. If the category is investable and AIDEN is the depth play, be ready to make the right introductions the moment Enero signs.</p>
+    <div class="card red">
+      <h4>Where Russ moves the needle</h4>
+      <ul class="clean">
+        <li><strong>Credibility gap closes overnight.</strong> Springboards has Hurman + Scaman as marquee names. We now have the actual chairman of Gruen. That's a level above.</li>
+        <li><strong>Distribution engine.</strong> AdMission 300k weekly + Gruen mainstream + 25k LinkedIn. Springboards has zero equivalent — they buy marquee guests one at a time.</li>
+        <li><strong>Warm-door BD.</strong> Enero/BMF, Mutinex, Kerfuffle, Town Square, Bastion, Good One already opened. Six live in ~4 weeks. Springboards took months of content to warm those relationships.</li>
+        <li><strong>Capital route.</strong> Tenet shareholder, VC lines including Blackbird itself. Springboards' own investor is now within reach for us.</li>
+        <li><strong>ASX-listed anchor in motion.</strong> Ian Ball (Enero) warmed to Tom instantly because Russ vouched. No cold sale gets there.</li>
+      </ul>
+    </div>
+    <div class="card amber">
+      <h4>Where Russ doesn't fix anything</h4>
+      <ul class="clean">
+        <li><strong>He is not BD.</strong> Explicit. Doors open, closing is still Tom.</li>
+        <li><strong>He is not engineering capacity.</strong> Build backlog still real. Enero engineers or Manila fallback still needed.</li>
+        <li><strong>He is not product.</strong> Colleague onboarding, phantom architecture, token margin — all still Tom.</li>
+        <li><strong>He is not the fundraise Chair.</strong> That role is separate (likely Matt), and the round timing depends on Enero landing, not Russ appointing.</li>
+        <li><strong>He complicates the cap table conversation.</strong> "Profile for equity" is fair but has to be structured cleanly before any VC opens the file.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="quote">Springboards' fastest weapon is their content engine. Ours is now Russ. The question is whether we use him at their tempo or ours.</div>
+</section>
+
+<!-- 6. Head to head with Russ in the frame -->
+<section>
+  <span class="slide-num">06 / 11</span>
+  <h3>Head to head, with Russ in the frame</h3>
+  <h2>Where the fight is <span class="red">actually won or lost.</span></h2>
+  <table>
+    <thead><tr><th>Battleground</th><th>Springboards' weapon</th><th class="red-col">AIDEN's weapon (with Russ)</th><th>Who wins today</th></tr></thead>
+    <tbody>
+      <tr><td>Credibility</td><td>Hurman, Scaman, Roach</td><td class="red-col">Russ Howcroft. Gruen. AdMission.</td><td>AIDEN</td></tr>
+      <tr><td>Distribution reach</td><td>Monthly webinars, 120 logo wall</td><td class="red-col">300k weekly podcast + LinkedIn + TV</td><td>AIDEN (potential), Springboards (proven)</td></tr>
+      <tr><td>Speed of BD</td><td>Content-led inbound</td><td class="red-col">Russ warm intros (6 doors in 4 weeks)</td><td>Even</td></tr>
+      <tr><td>Product depth</td><td>Ideation only</td><td class="red-col">Bespoke agency brain, Phantoms, integrations</td><td>AIDEN</td></tr>
+      <tr><td>ACV / lifetime value</td><td>Sub-US$30k / agency</td><td class="red-col">A$150k–1.25m / agency</td><td>AIDEN</td></tr>
+      <tr><td>Capital</td><td>A$5m in the bank</td><td class="red-col">Enero deal in motion + Tenet-to-VC line</td><td>Springboards (today)</td></tr>
+      <tr><td>Enterprise story</td><td>SSO + CSM</td><td class="red-col">ASX-listed anchor (Enero)</td><td>AIDEN (if Enero signs)</td></tr>
+    </tbody>
+  </table>
+  <br>
+  <p class="lede">We win on product, depth, ACV and (now) credibility. They win on capital, adoption speed and existing footprint. The next 90 days decide whether AIDEN + Russ turns the credibility win into a distribution win before Springboards raises Series A and closes the gap.</p>
+</section>
+
+<!-- 7. Signal from Springboards ~9 months out -->
+<section>
+  <span class="slide-num">07 / 11</span>
+  <h3>What Springboards likely does next</h3>
+  <h2>Their playbook is <span class="red">predictable.</span> Plan against it.</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Likely Springboards moves in the next 12 months</h4>
+      <ul class="clean">
+        <li>Series A raise, US$15–25m at ~A$150–250m post. Blackbird will run it.</li>
+        <li>Push into US market. Amy Tucker's ex-Twitter/Shopify network activates.</li>
+        <li>Deeper enterprise features (SSO, brand-vault, workflow templates). Cosmetic depth.</li>
+        <li>Attempt to add "brain" / "profile" language to their pitch. Will look like AIDEN retrofitted.</li>
+        <li>Bundle with a holdco (WPP or Publicis) for distribution.</li>
+      </ul>
     </div>
     <div class="card red">
-      <h4>What Russ signing on tells the market</h4>
-      <p style="font-size:1.1rem;line-height:1.65">
-      Russ has been offered chairmanship of many things. He doesn't take them. Him joining AIDEN as Chairman is a public signal — to the AU advertising market, to Enero, to Tenet, to Blackbird — that this is the platform he thinks wins the creative-AI category.
-      <br><br>
-      That signal is worth more than the round itself.
-      </p>
+      <h4>What that means for us</h4>
+      <ul class="clean">
+        <li>We have ~6–9 months of clear air before their next raise creates a bigger noise wave.</li>
+        <li>Enero has to sign before Springboards claims an ASX-listed reference or a holdco.</li>
+        <li>Own the vocabulary now: "agency brain," "phantom," "the argument the machine executes." Before they steal it.</li>
+        <li>Russ appearing on AdMission and Gruen with AIDEN gives us a permanent claim on the category in AU that Springboards cannot buy back.</li>
+        <li>Position AIDEN as complementary in the market ("Springboards is the tool, AIDEN is the brain") so their customers become our upsell path.</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<!-- 13. Close -->
+<!-- 8. What we take from their playbook -->
 <section>
-  <span class="slide-num">13 / 13</span>
-  <h3>The point of this document</h3>
-  <h2>Russ joining as Chairman is <span class="red">the story.</span></h2>
-  <div class="quote" style="font-size:1.5rem;max-width:70ch;line-height:1.5">
-    Chairman appointed. Advisor secured. ASX-listed anchor client in motion. Category validated by a A$5m Blackbird precedent. Product live and defensible. This is what a fund-ready business looks like — and the deck this becomes when Enero signs is the deck that raises the round.
+  <span class="slide-num">08 / 11</span>
+  <h3>What we steal, what we skip</h3>
+  <h2>Their tactics, our terms.</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Steal</h4>
+      <ul class="clean">
+        <li><strong>Named-authority format.</strong> Their Spark Sessions rent credibility. Ours: closed-room dinner series, Russ convenes, 3–4 agency leaders + 1 guest, quarterly.</li>
+        <li><strong>Category vocabulary.</strong> "Sameness is the enemy" is their line. Ours: "AI makes agencies more similar. AIDEN makes each agency more itself." Say it every week until it sticks.</li>
+        <li><strong>Founder-visible brand.</strong> They put the three founders on the About page. We should. Tom + Russ + Matt + Chris.</li>
+        <li><strong>Editorial POV, not brochure.</strong> A public thesis piece — "Why the AI wrapper era is ending in advertising."</li>
+        <li><strong>One productised entry point.</strong> They productised ideation. We productise the Colleague pilot at a fixed price (A$150–175k, BMF Proof Instance shape).</li>
+      </ul>
+    </div>
+    <div class="card amber">
+      <h4>Skip</h4>
+      <ul class="clean">
+        <li><strong>Seat-based SaaS.</strong> Wrong price ladder. Wrong buyer. Wrong ceiling.</li>
+        <li><strong>Freemium.</strong> Would train the market to under-value what we do.</li>
+        <li><strong>Hire to 24 people.</strong> Not the model. 2 engineers, senior operators, then stop.</li>
+        <li><strong>Chase Series A on hype.</strong> Only raise when Enero has signed and there's a real reference in the deck.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 9. Risks we should actually worry about -->
+<section>
+  <span class="slide-num">09 / 11</span>
+  <h3>Risks that keep this awake at night</h3>
+  <h2>What could <span class="red">actually kill it.</span></h2>
+  <div class="grid-3">
+    <div class="card amber">
+      <h4>Product</h4>
+      <p>Token margin unproven. Everything priced in tokens, provider costs vary. If margin per operation isn't positive at scale, the business model is theoretical. See cost measurement plan Jul 16.</p>
+    </div>
+    <div class="card amber">
+      <h4>Engineering capacity</h4>
+      <p>Tom is one person. Consulting load is suffocating build. Enero's 2 dedicated engineers or Manila fallback must land — this is the actual bottleneck, not distribution.</p>
+    </div>
+    <div class="card amber">
+      <h4>Enero doesn't close</h4>
+      <p>Joint pitch Mon 27 Jul. If it slides to Q4, Springboards' Series A likely lands first and steals the "we've raised" narrative. Enero closing in Aug–Sep is the tempo we need.</p>
+    </div>
+    <div class="card amber">
+      <h4>IP leak inside Enero</h4>
+      <p>Russ suggested giving Colleague to BMF outright — Tom pushed back. Phantom architecture is the invention. Engineers who see it could replicate it. IP protection has to be settled BEFORE any deal signs.</p>
+    </div>
+    <div class="card amber">
+      <h4>Russ-shaped concentration risk</h4>
+      <p>Currently one person is credibility + distribution + capital route. That's leverage and fragility in the same package. Advisor board (Matt + others) needs to broaden the surface.</p>
+    </div>
+    <div class="card amber">
+      <h4>Category commoditisation</h4>
+      <p>GPT-5 / Claude Opus keep closing the gap on generic "agency brain" prompts. Phantom depth has to visibly outpace frontier models every quarter or the story degrades.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10. Open questions for us to answer -->
+<section>
+  <span class="slide-num">10 / 11</span>
+  <h3>Open questions — for Tom + Russ to decide</h3>
+  <h2>What we need to answer <span class="red">in the next 30 days.</span></h2>
+  <div class="grid-2">
+    <div>
+      <div class="qbox">
+        <h5>Deal shape</h5>
+        <p>Is Enero an early-stage <strong>investor</strong> (cash + engineers + BMF beta) or a <strong>foundation client</strong> (A$950k contract, no equity)? These have very different implications for the round after.</p>
+      </div>
+      <div class="qbox">
+        <h5>IP protection</h5>
+        <p>Phantom architecture inside Enero's engineering team — what's the boundary? Do the 2 allocated engineers work on Colleague deployment only, or on core? Settle before Mon 27 Jul.</p>
+      </div>
+      <div class="qbox">
+        <h5>Russ deal structure</h5>
+        <p>Standard tech chairman + advisory board + "profile for equity" — what's the % and vesting? Russ declined the first paper. He's coming back with his own shape. Timing?</p>
+      </div>
+      <div class="qbox">
+        <h5>Springboards relationship</h5>
+        <p>Do we position publicly as complementary ("they're the tool, we're the brain") or as replacement? Complementary opens their customer base as our upsell. Replacement is simpler for investors.</p>
+      </div>
+    </div>
+    <div>
+      <div class="qbox">
+        <h5>The 100-agency question</h5>
+        <p>Springboards did 120 in 24 months as SaaS. AIDEN target is 100 in 36 months as depth platform. Is 100 the right number, or is 30 at 10× the ACV the real business?</p>
+      </div>
+      <div class="qbox">
+        <h5>Podcast + Gruen tempo</h5>
+        <p>When does AIDEN debut on AdMission? When is the Gruen slot? These are one-shot cards — sequencing them relative to Enero signing determines the news cycle.</p>
+      </div>
+      <div class="qbox">
+        <h5>Fundraise Chair</h5>
+        <p>Russ is Chairman. Matt likely Chair-of-round when the time comes. Do we lock that role now (before it becomes political), or wait for the Enero close?</p>
+      </div>
+      <div class="qbox">
+        <h5>The Chris/Maples question</h5>
+        <p>Russ is AU / brand. Chris is UK/EU / enterprise. Are we running two parallel motions, or does one lead and one follow? Speed of decision matters — Chris needs to know.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. Bottom line -->
+<section>
+  <span class="slide-num">11 / 11</span>
+  <h3>Bottom line, no fluff</h3>
+  <h2>The read.</h2>
+  <div class="quote" style="font-size:1.35rem;max-width:75ch;line-height:1.55">
+    Springboards is ahead on capital and distribution. We are ahead on product, ACV and (now) credibility. The gap they've built with A$5m over 18 months, we can close in 6 months if — and only if — Russ's distribution engine fires while Enero signs. If both happen by end of September, we own the AU category and can run the round on our terms. If either slips, Springboards' Series A lands first and we're playing catch-up on a story that should have been ours.
   </div>
   <br>
-  <p class="lede">Prepared July 2026 to accompany Russel Howcroft's Chairman announcement and brief Tenet ahead of investor conversations. Full commercial detail available on request.</p>
+  <p class="lede"><strong>Next actions, straight list:</strong></p>
+  <ul class="clean" style="max-width:75ch">
+    <li>Mon 27 Jul — joint pitch to Ian Ball + Ash. Structure, not numbers. IP boundary settled before we walk in.</li>
+    <li>Russ to come back with his own chairman/deal shape (declined the first paper).</li>
+    <li>Diarise the AdMission debut episode and Gruen conversation — sequence relative to Enero signing.</li>
+    <li>Draft public POV piece ("The AI wrapper era is ending in advertising") — anchor the AU category before Springboards raises.</li>
+    <li>Confirm 2-engineer capacity: Enero-allocated or Manila fallback. Bottleneck, not option.</li>
+    <li>Lock Matt's advisor role in writing. Optional Chair-of-round conversation later.</li>
+  </ul>
 </section>
 
 <div class="footer">
-  AIDEN · Russel Howcroft joins as Chairman · Prepared for Tenet · July 2026 · aiden.services · redbaez.com
+  Intelligence · Tom + Russ · AIDEN vs Springboards · July 2026 · Not for circulation
 </div>
 </main>
 </body>
