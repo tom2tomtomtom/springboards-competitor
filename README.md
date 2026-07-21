@@ -1,13 +1,15 @@
-# Springboards.ai vs AIDEN — Competitor Read
+# AIDEN · The Springboards Read · Investor Brief
 
-A Redbaez read on Springboards.ai vs AIDEN: what they are, how much they've raised, what they're worth, and where AIDEN wins.
+Prepared for Russel Howcroft to brief **Tenet** ahead of investor conversations.
 
 **[View the deck →](https://tom2tomtomtom.github.io/springboards-competitor/)**
 
-Key data points:
-- Springboards raised **A$5m seed from Blackbird Ventures** (March 2025)
-- **120+ agency customers**, ~27 staff
-- Est. **US$2–3m ARR**, **A$60–90m valuation** (triangulated)
-- AIDEN plays a different game: fewer, deeper, higher-ACV transformation work
+## The narrative
+- **Springboards proved the category** (A$5m Blackbird seed, 120+ agencies, ~US$2–3m ARR, est. A$60–90m valuation)
+- **AIDEN wins the depth layer** — bespoke agency brains, IP-defended, higher ACV
+- **Enero (ASX-listed) as anchor client** — takes AIDEN past bootstrap into validated business
+- **Russ as Chairman** — 300k weekly podcast, 25k LinkedIn, Tenet VC access
+- **Matt Farrugia as Advisor** — Mutinex founder, been through the stages, active advocate
+- **Path:** 100 agencies × ~A$100k ACV × 7× ARR = **A$70–100m enterprise value**
 
 Compiled: July 2026
